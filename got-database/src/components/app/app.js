@@ -3,10 +3,9 @@ import {Col, Row, Container} from 'reactstrap';
 import Header from '../header';
 import RandomChar from '../randomChar';
 import ErrorMessage from '../errorMessage';
-import characterPage from '../characterPage';
+import CharacterPage from '../characterPage';
 
 import './app.css';
-import CharacterPage from '../characterPage';
 
 export default class App extends Component {
     state = {

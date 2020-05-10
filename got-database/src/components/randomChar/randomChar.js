@@ -7,6 +7,7 @@ import gotService from '../../services/gotService';
 export default class RandomChar extends Component {
 
     gotService = new gotService();
+    
     state = {
         char: {},
         loading: true,
