@@ -13,5 +13,9 @@
     "@typescript-eslint/parser": "^2.30.0",
     "eslint": "^6.8.0",
     "eslint-plugin-react": "^7.19.0"
+  },
+  "dependencies": {
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
   }
 }
