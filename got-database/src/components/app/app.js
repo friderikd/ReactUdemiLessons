@@ -11,8 +11,6 @@ import './app.css';
 
 export default class App extends Component {
 
-    gotService = new gotService();
-
     state = {
         showRandomChar: true,
         error: false
@@ -35,7 +33,7 @@ export default class App extends Component {
 
     render() {
 
-        const char = this.state.showRandomChar ? <RandomChar/> : null;
+        const char = this.state.showRandomChar ? <RandomChar getData={ new gotService().getCharacter}/> : null;
 
         if (this.state.error) {
             return <ErrorMessage/>
